@@ -26,6 +26,18 @@
     color: rgb(34, 109, 80);
 }
 
+@media screen and (max-width: 480px) {
+    .dicas_article{
+        display: contents;
+    }
+  }
+  
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    .dicas_article{
+        display: contents;
+    }
+  }
+
 @media screen and (min-width: 769px) and (max-width: 1199px) {
     .dicas{
         margin: 0 2rem;

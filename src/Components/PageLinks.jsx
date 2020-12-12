@@ -21,8 +21,6 @@ const PageLinks = () => {
                 <br/>
                 <a href="https://globoplay.globo.com/v/8335349/" target='_blanck'>https://globoplay.globo.com/v/8335349/</a>
                 <br/>
-                <a href="https://www.youtube.com/watch?v=yrVvrSjHE58&list=PL4zMVqvXQWYSOS6XAluNvWrKS_ZhQNOT9&index=169" target='_blanck'>https://www.youtube.com/watch?v=yrVvrSjHE58&list=PL4zMVqvXQWYSOS6XAluNvWrKS_ZhQNOT9&index=169</a>
-                <br/>
                 <br/>
                 <p>
                     Sabe aquelas receitinhas 'naturais' para cabelo que encontramos pela internet? Na maioria das vezes os materiais além de não cumprir o prometido, acabam danificando o nosso cabelo e entramos em um ciclo vicioso de buscar a que se encaixe. O link abaixo reúne receitas comuns que não fazem efeito algúm no cabelo, vale a pena conferir:
