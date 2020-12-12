@@ -1,0 +1,104 @@
+.modal {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgb(17 39 21 / 56%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(247, 252, 239);
+    color: var(--color);
+    display: flex;
+    width: 50%;
+    height: 60%;
+    border-radius: 0.3rem;
+    font-size: 1.1rem;
+    text-align: justify;
+    overflow: auto;
+}
+
+.history{
+    margin-right: 2rem;
+}
+
+.history h3{
+    line-height: 3;
+    border-bottom: solid;
+    border-bottom-color: rgba(100, 142, 30, 1);
+    display: inline;
+}
+
+.history a{
+    padding: 0.5rem;
+    display: flex;
+    text-decoration: underline;
+    color: rgb(34, 109, 80);
+}
+
+.alert{
+    font: message-box;
+    padding: 1rem;
+    font-weight: bold;
+    margin-top: 1.2rem;
+    color: white;
+    background-color: #868686;
+}
+
+.close {
+    background-color: #d7efc5;
+    border-radius: 0.2rem;
+    font-weight: 900;
+    border: none;
+    outline: none;
+    width: 12rem;
+    height: 2rem;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: calc(-100% + 5rem);
+    top: 0.4rem;
+}
+
+.close:hover {
+    background-color: rgb(115, 150, 105);
+    color: rgb(45, 68, 14);
+}
+
+@media screen and (min-width: 320px) {
+    .container{
+        width: 100%;
+        height: 85vh;
+        font-size: 1rem;
+    }
+  }
+
+@media screen and (min-width: 321px) and (max-width: 570px) {
+    .container{
+        width: 90%;
+        height: 85vh;
+        font-size: 1rem;
+    }
+  }
+
+  @media screen and (min-width: 571px) and (max-width: 1199px) {
+    .container{
+        width: 50%;
+        height: 80vh;
+        font-size: 1.1rem;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .container{
+        width: 50%;
+        height: 80vh;
+        font-size: 1.1rem;
+    }
+  }

@@ -1,0 +1,101 @@
+.main-recipe{
+    background-color: rgba(188, 209, 153, 1);
+    color: transparent;
+}
+
+.Container_recipe{
+    color: var(--color);
+    height: 7rem;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+
+.Container_recipe h2{
+    line-height: 1;
+    border-bottom: solid rgba(254, 119, 9, 1);
+}
+
+select {
+    padding: 0.6rem;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container_button{
+    display: contents;
+    cursor: pointer;
+    outline: none;
+}
+
+.card {
+    max-width: 18rem;
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    border: 1px solid rgba(242, 250, 227, 1);
+    transition: all .2s ease-in-out;
+    background-color: rgba(242, 250, 227, 1);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+  
+.card h3 {
+    padding: 1rem;
+}
+
+.card p{
+    font-weight: 100;
+    color: rgba(242, 250, 227, 1);
+    text-align: justify;
+}
+
+.card img{
+    height: 12rem;
+    width: 100%;
+}
+
+.card:hover{
+    background-color: rgb(138 129 121 / 36%);
+    color: white;
+    border-bottom: 4px;
+    top: -4px;
+}
+
+
+.card_button p{
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    padding: 0.8rem;
+    background-color: #164016;
+}
+
+.card_button p:hover{
+    background-color: #2d552d;
+    z-index: 2;
+}
+
+@media screen and (max-width: 480px){
+      .Container_recipe{
+          display: grid;
+      }
+      select{
+          display: flex;
+          margin: auto;
+          margin-top: 1rem;
+      }
+}

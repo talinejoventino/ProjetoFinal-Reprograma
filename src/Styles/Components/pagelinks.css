@@ -1,0 +1,45 @@
+.dicas{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.dicas h2{
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+
+.dicas_article{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.dicas_article p{
+    text-indent: 2rem;
+}
+
+.dicas_article a{
+    text-decoration: underline;
+    color: rgb(34, 109, 80);
+}
+
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+    .dicas{
+        margin: 0 2rem;
+    }
+    .dicas_article{
+        margin: 0 2rem 2rem;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .dicas{
+        margin: 0 4rem;
+    }
+    .dicas_article{
+        margin: 0 2rem 2rem;
+    }
+  }

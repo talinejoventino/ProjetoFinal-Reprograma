@@ -1,0 +1,56 @@
+.about{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.about h2{
+    align-items: center;
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+
+.article{
+    text-indent: 2rem;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.link{
+    font-weight: 700;
+}
+
+.about_button{
+    background-color: rgba(254, 119, 9, 1);
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+    color: white; 
+    outline: none;
+}
+
+
+.about_button:hover{
+    background-color: rgba(166, 78, 6, 1);
+}
+  
+  @media screen and (min-width: 769px) and (max-width: 1199px) {
+    .article{
+        margin: 0 2rem;
+    }
+    .about{
+        margin: 2rem;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .article{
+        margin: 0 4rem;
+    }
+    .about{
+        margin: 2rem;
+    }
+  }

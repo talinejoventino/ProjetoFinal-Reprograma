@@ -1,0 +1,75 @@
+
+.main{
+    align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+    .main {
+        display: inline-block;
+        padding: 2rem 1rem;
+    }
+    .text_redes {
+        display: flex;
+        justify-content: center;
+    }
+    .profile {
+        display: flex;
+        justify-content: center;
+    }
+  }
+  
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    .main {
+        display: inline-block;
+        padding: 2rem 1rem;
+    }
+    .text_redes {
+        display: flex;
+        justify-content: center;
+    }
+    .profile {
+        display: flex;
+        justify-content: center;
+    }
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 1199px) {
+    .main{
+        display: flex;
+        padding: 2rem 7rem;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .main{
+        display: flex;
+        padding: 2rem 7rem;
+    }
+  }
+
+.profile img{
+    height: 16rem;
+    border-radius: 3%;
+    margin-right: 2rem;
+}
+
+.text{
+    text-align: justify;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.text_redes .enter-app{
+    background-color: rgb(56 115 89);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.6rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.text .enter-app:hover{
+    background-color: rgb(103 127 117);
+}

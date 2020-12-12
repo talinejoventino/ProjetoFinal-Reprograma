@@ -1,0 +1,28 @@
+
+ul.sidebar li {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+ul.sidebar {
+    border-radius: 0.5rem;
+    background-color: rgb(240 247 229);
+    border-bottom: solid rgba(254, 119, 9, 1);
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.sidebar li a {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+.active {
+    /* background-color: rgba(254, 119, 9, 1); */
+    border-radius: 0.5rem;
+    color: rgba(254, 119, 9, 1);
+}
